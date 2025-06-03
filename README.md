@@ -37,7 +37,7 @@ You will have to download the code and use
 ```commandline
 python3 -m venv venv
 source venv/bin/activate
-pip install requirements.txt
+pip install -r requirements.txt
 python main.py
 ```
 to run it directly. Or generate the executable by running `python pyinstaller.py`. This will generate 
